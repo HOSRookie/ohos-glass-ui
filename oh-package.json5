@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "HarmonyOS NEXT 毛玻璃风格 UI 组件库，提供 GlassCard、GlassButton、GlassInput 等组件，适用于深色主题应用",
   "main": "Index.ets",
-  "author": "",
+  "author": "刘鑫源",
   "license": "Apache-2.0",
   "keywords": [
     "harmonyos",
