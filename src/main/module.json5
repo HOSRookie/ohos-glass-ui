@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "ohos-glass-ui",
+    "type": "har",
+    "deviceTypes": [
+      "phone",
+      "tablet"
+    ]
+  }
+}
+

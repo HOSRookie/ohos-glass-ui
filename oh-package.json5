@@ -1,0 +1,22 @@
+{
+  "name": "@anthropic/ohos-glass-ui",
+  "version": "1.0.0",
+  "description": "HarmonyOS NEXT 毛玻璃风格 UI 组件库，提供 GlassCard、GlassButton、GlassInput 等组件，适用于深色主题/星空背景应用",
+  "main": "Index.ets",
+  "author": "Resonance Team",
+  "license": "Apache-2.0",
+  "keywords": [
+    "harmonyos",
+    "arkts",
+    "glass",
+    "glassmorphism",
+    "blur",
+    "frosted-glass",
+    "ui-components",
+    "dark-theme"
+  ],
+  "repository": "https://github.com/anthropic/ohos-glass-ui",
+  "homepage": "https://github.com/anthropic/ohos-glass-ui#readme",
+  "dependencies": {}
+}
+

@@ -1,0 +1,20 @@
+# Build outputs
+build/
+.preview/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+
+# Dependencies
+node_modules/
+oh_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
