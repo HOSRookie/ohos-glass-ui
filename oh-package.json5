@@ -15,7 +15,7 @@
     "ui-components",
     "dark-theme"
   ],
-  "repository": "",
-  "homepage": "",
+  "repository": "https://github.com/HOSRookie/ohos-glass-ui",
+  "homepage": "https://github.com/HOSRookie/ohos-glass-ui#readme",
   "dependencies": {}
 }
