@@ -9,12 +9,12 @@
 
 **HarmonyOS NEXT 毛玻璃风格 UI 组件库**
 
-专为深色主题 / 星空背景应用设计的 Glassmorphism 风格组件库，提供开箱即用的毛玻璃卡片、按钮、输入框等组件。
+专为深色主题应用设计的 Glassmorphism 风格组件库，提供开箱即用的毛玻璃卡片、按钮、输入框等组件。
 
 ## ✨ 特性
 
 - 🎨 **毛玻璃效果** - 基于 `backgroundBlurStyle` 的真实模糊效果
-- 🌙 **深色主题优化** - 专为深色/星空背景设计
+- 🌙 **深色主题优化** - 专为深色背景设计
 - ⚡ **零依赖** - 纯 ArkTS 实现，无外部依赖
 - 📦 **ArkUI V2** - 基于 @ComponentV2 开发，状态管理更高效
 - 🎯 **开箱即用** - 统一的视觉语言，无需额外配置
@@ -22,7 +22,7 @@
 ## 📦 安装
 
 ```bash
-ohpm install @anthropic/ohos-glass-ui
+ohpm install ohos-glass-ui
 ```
 
 或在 `oh-package.json5` 中添加：
@@ -30,7 +30,7 @@ ohpm install @anthropic/ohos-glass-ui
 ```json5
 {
   "dependencies": {
-    "@anthropic/ohos-glass-ui": "^1.0.0"
+    "ohos-glass-ui": "^1.0.0"
   }
 }
 ```
@@ -38,7 +38,7 @@ ohpm install @anthropic/ohos-glass-ui
 ## 🚀 快速开始
 
 ```typescript
-import { GlassCard, GlassButton, GlassButtonType, GlassInput } from '@anthropic/ohos-glass-ui';
+import { GlassCard, GlassButton, GlassButtonType, GlassInput } from 'ohos-glass-ui';
 
 @Entry
 @ComponentV2
@@ -180,7 +180,7 @@ GlassReadonlyField({
 .backgroundColor('#1a1a3e')  // 午夜蓝
 .backgroundColor('#0d0d1a')  // 近黑
 
-// 或使用星空渐变背景
+// 或使用渐变背景
 .linearGradient({
   angle: 180,
   colors: [['#0a0a2e', 0], ['#1a1a4e', 1]]
@@ -206,17 +206,16 @@ GlassReadonlyField({
 - DevEco Studio 5.0+
 - ArkTS V2
 
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
 ## 📄 License
 
 [Apache License 2.0](./LICENSE)
-
-## 🙏 致谢
-
-本项目从 [Resonance](https://github.com/anthropic/resonance) 项目中抽离，感谢所有贡献者。
 
 ---
 
 <p align="center">
   Made with ❤️ for HarmonyOS
 </p>
-

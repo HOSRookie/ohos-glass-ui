@@ -2,7 +2,6 @@
  * ohos-glass-ui
  * HarmonyOS NEXT 毛玻璃风格 UI 组件库
  * 
- * @author Resonance Team
  * @license Apache-2.0
  */
 
@@ -17,4 +16,3 @@ export { GlassButton, GlassButtonType } from './src/main/ets/components/GlassBut
 export { GlassInput } from './src/main/ets/components/GlassInput';
 export { GlassSelect } from './src/main/ets/components/GlassInput';
 export { GlassReadonlyField } from './src/main/ets/components/GlassInput';
-
