@@ -1,4 +1,4 @@
-# ohos-glass-ui
+# ohos_glass_ui
 
 <p align="center">
   <img src="https://img.shields.io/badge/HarmonyOS-NEXT-blue" alt="HarmonyOS NEXT">
